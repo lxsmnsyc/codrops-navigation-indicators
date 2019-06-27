@@ -33,8 +33,9 @@ import Nav from '../nav/Nav';
 import UbaxNavItem from '../nav/ubax/UbaxNavItem';
 import UbaxNavItemTitle from '../nav/ubax/UbaxNavItemTitle';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -58,7 +59,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Ubax</h3>
+        <MockupTitle>Ubax</MockupTitle>
       </MockupSlider>
     </UbaxNavSection>
   );
