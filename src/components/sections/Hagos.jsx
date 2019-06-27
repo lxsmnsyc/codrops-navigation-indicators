@@ -35,8 +35,9 @@ import HagosNavItem from '../nav/hagos/HagosNavItem';
 import HagosNavItemTitle from '../nav/hagos/HagosNavItemTitle';
 import HagosNavItemIcon from '../nav/hagos/HagosNavItemIcon';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -63,7 +64,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Hagos</h3>
+        <MockupTitle>Hagos</MockupTitle>
       </MockupSlider>
     </HagosNavSection>
   );
