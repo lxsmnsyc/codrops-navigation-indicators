@@ -34,8 +34,9 @@ import Nav from '../nav/Nav';
 import ZahiNavItem from '../nav/zahi/ZahiNavItem';
 import ZahiNavItemTitle from '../nav/zahi/ZahiNavItemTitle';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -59,7 +60,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Zahi</h3>
+        <MockupTitle>Zahi</MockupTitle>
       </MockupSlider>
     </ZahiNavSection>
   );
