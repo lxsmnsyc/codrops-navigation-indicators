@@ -34,7 +34,7 @@ const Nav = styled.nav`
 
   @media screen and (max-width: 50em) {
     -webkit-flex: none;
-		flex: none;
+    flex: none;
     margin: 0 auto;
   }
 `;
