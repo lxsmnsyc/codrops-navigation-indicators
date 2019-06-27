@@ -38,6 +38,12 @@ import './css/normalize.css';
 import Hagos from './components/sections/Hagos';
 import SVGSheet from './components/SVGSheet';
 import Zahi from './components/sections/Zahi';
+import Magool from './components/sections/Magool';
+import Xusni from './components/sections/Xusni';
+import Beca from './components/sections/Beca';
+import Etefu from './components/sections/Etefu';
+import Meklit from './components/sections/Meklit';
+import Mariame from './components/sections/Mariame';
 
 const GlobalStyle = createGlobalStyle`
   *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -61,7 +67,13 @@ function App() {
       <Maxamed />
       <Hagos />
       <Zahi />
+      <Magool />
+      <Xusni />
+      <Beca />
+      <Etefu />
+      <Meklit />
       <Timiro />
+      <Mariame />
     </React.Fragment>
   );
 }
