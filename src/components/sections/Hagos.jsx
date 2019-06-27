@@ -34,6 +34,7 @@ import Nav from '../nav/Nav';
 import HagosNavItem from '../nav/hagos/HagosNavItem';
 import HagosNavItemTitle from '../nav/hagos/HagosNavItemTitle';
 import HagosNavItemIcon from '../nav/hagos/HagosNavItemIcon';
+import HagosIcon from '../nav/hagos/HagosIcon';
 
 import MockupSlider from '../mockup/MockupSlider';
 import MockupImage from '../mockup/MockupImage';
@@ -54,8 +55,8 @@ export default () => {
         {
           constantList.map((item, k) => (
             <HagosNavItem aria-label={item} current={selected === k} onClick={() => select(k)}>
-              <HagosNavItemIcon>
-                <use xlinkHref="#icon-bubble" />
+              <HagosNavItemIcon viewBox="0 0 48 24">
+                <HagosIcon />
               </HagosNavItemIcon>
               <HagosNavItemTitle>{item}</HagosNavItemTitle>
             </HagosNavItem>
