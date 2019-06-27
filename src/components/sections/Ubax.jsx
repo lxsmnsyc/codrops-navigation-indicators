@@ -34,7 +34,7 @@ import UbaxNavItem from '../nav/ubax/UbaxNavItem';
 import UbaxNavItemTitle from '../nav/ubax/UbaxNavItemTitle';
 
 import MockupSlider from '../MockupSlider';
-import Mockup from '../../images/3.jpg';
+import MockupImage from '../MockupImage';
 
 import constantList from '../../constantList';
 
@@ -44,7 +44,7 @@ const UbaxNavSection = styled(NavSection)`
 `;
 
 export default () => {
-  const [selected, select] = useState(null);
+  const [selected, select] = useState(0);
   return (
     <UbaxNavSection>
       <Nav>
@@ -57,7 +57,7 @@ export default () => {
         }
       </Nav>
       <MockupSlider>
-        <img src={Mockup} alt="img3" />
+        <MockupImage index={selected} />
         <h3>Ubax</h3>
       </MockupSlider>
     </UbaxNavSection>
