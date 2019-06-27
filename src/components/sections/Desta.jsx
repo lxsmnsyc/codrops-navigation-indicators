@@ -34,6 +34,7 @@ import Nav from '../nav/Nav';
 import DestaNavItem from '../nav/desta/DestaNavItem';
 import DestaNavItemTitle from '../nav/desta/DestaNavItemTitle';
 import DestaNavItemIcon from '../nav/desta/DestaNavItemIcon';
+import DestaIcon from '../nav/desta/DestaIcon';
 
 import MockupSlider from '../mockup/MockupSlider';
 import MockupImage from '../mockup/MockupImage';
@@ -58,8 +59,8 @@ export default () => {
         {
           constantList.map((item, k) => (
             <DestaNavItem aria-label={item} current={selected === k} onClick={() => select(k)}>
-              <DestaNavItemIcon>
-                <use xlinkHref="#icon-triangle" />
+              <DestaNavItemIcon viewBox="0 0 24 24">
+                <DestaIcon />
               </DestaNavItemIcon>
               <DestaNavItemTitle>{item}</DestaNavItemTitle>
             </DestaNavItem>
