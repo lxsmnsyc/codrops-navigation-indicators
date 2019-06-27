@@ -35,18 +35,6 @@ const EtefuNavItem = styled(NavItem)`
   height: 3em;
   margin: 1em 0;
 
-  & ${EtefuNavItemInner} {
-    position: relative;
-    display: block;
-    overflow: hidden;
-    width: 0.25em;
-    height: 100%;
-    margin: 0 0 0 1em;
-    background: #4fc369;
-    opacity: 0.7;
-    -webkit-transition: opacity 0.3s;
-      transition: opacity 0.3s;
-  }
   
   &:not(.nav__item--current):focus ${EtefuNavItemInner},
   &:not(.nav__item--current):hover ${EtefuNavItemInner}{
