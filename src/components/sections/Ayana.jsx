@@ -33,6 +33,7 @@ import Nav from '../nav/Nav';
 
 import AyanaNavItem from '../nav/ayana/AyanaNavItem';
 import AyanaNavItemIcon from '../nav/ayana/AyanaNavItemIcon';
+import AyanaIcon from '../nav/ayana/AyanaIcon';
 
 import MockupSlider from '../mockup/MockupSlider';
 import MockupImage from '../mockup/MockupImage';
@@ -53,8 +54,8 @@ export default () => {
         {
           constantList.map((item, k) => (
             <AyanaNavItem aria-label={item} current={selected === k} onClick={() => select(k)}>
-              <AyanaNavItemIcon>
-                <use xlinkHref="#icon-circle" />
+              <AyanaNavItemIcon viewBox="0 0 16 16">
+                <AyanaIcon />
               </AyanaNavItemIcon>
             </AyanaNavItem>
           ))
