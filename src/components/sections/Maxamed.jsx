@@ -34,8 +34,9 @@ import Nav from '../nav/Nav';
 import MaxamedNavItem from '../nav/maxamed/MaxamedNavItem';
 import MaxamedNavItemTitle from '../nav/maxamed/MaxamedNavItemTitle';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -59,7 +60,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Maxamed</h3>
+        <MockupTitle>Maxamed</MockupTitle>
       </MockupSlider>
     </MaxamedNavSection>
   );
