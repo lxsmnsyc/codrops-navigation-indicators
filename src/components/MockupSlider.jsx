@@ -48,14 +48,6 @@ const MockupSlider = styled.div`
     bottom: 0;
   }
 
-  & img {
-    position: relative;
-    display: block;
-    max-width: 100%;
-    margin: 150px 0;
-    box-shadow: 0 10px 20px -4px rgba(0,0,0,0.6);
-  }
-
   & h3 {
     position: absolute;
     font-size: 3em;
