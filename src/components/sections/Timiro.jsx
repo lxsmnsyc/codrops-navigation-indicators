@@ -30,10 +30,12 @@ import styled from 'styled-components';
 
 import NavSection from '../bases/NavSection';
 import Nav from '../nav/Nav';
-import TimiroNavItem from '../nav/timiro/TimiroNavItem';
-import MockupSlider from '../MockupSlider';
 
-import Mockup from '../../images/6.jpg';
+import TimiroNavItem from '../nav/timiro/TimiroNavItem';
+
+import MockupSlider from '../MockupSlider';
+import MockupImage from '../MockupImage';
+
 import constantList from '../../constantList';
 
 const TimiroNavSection = styled(NavSection)`
@@ -42,7 +44,7 @@ const TimiroNavSection = styled(NavSection)`
 `;
 
 export default () => {
-  const [selected, select] = useState(null);
+  const [selected, select] = useState(0);
   return (
     <TimiroNavSection>
       <Nav>
@@ -53,7 +55,7 @@ export default () => {
         }
       </Nav>
       <MockupSlider>
-        <img src={Mockup} alt="img6" />
+        <MockupImage index={selected} />
         <h3>Timiro</h3>
       </MockupSlider>
     </TimiroNavSection>
