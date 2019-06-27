@@ -29,6 +29,17 @@ import styled from 'styled-components';
 import NavItemInner from '../NavItemInner';
 
 const EtefuNavItemInner = styled(NavItemInner)`
+  position: relative;
+  display: block;
+  overflow: hidden;
+  width: 0.25em;
+  height: 100%;
+  margin: 0 0 0 1em;
+  background: #4fc369;
+  opacity: 0.7;
+  -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+
   &::before {
     content: '';
     position: absolute;
