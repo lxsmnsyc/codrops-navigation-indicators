@@ -34,6 +34,7 @@ import AmanNav from '../nav/aman/AmanNav';
 import AmanNavItem from '../nav/aman/AmanNavItem';
 import AmanNavIcon from '../nav/aman/AmanNavIcon';
 import AmanNavPointer from '../nav/aman/AmanNavPointer';
+import AmanPointerIcon from '../nav/aman/AmanPointerIcon';
 
 import MockupSlider from '../mockup/MockupSlider';
 import MockupImage from '../mockup/MockupImage';
@@ -62,8 +63,8 @@ export default () => {
           ))
         }
         <AmanNavPointer>
-          <AmanNavIcon>
-            <use xlinkHref="#icon-magnifier" />
+          <AmanNavIcon viewBox="0 0 24 24">
+            <AmanPointerIcon />
           </AmanNavIcon>
         </AmanNavPointer>
       </AmanNav>
