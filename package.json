@@ -16,6 +16,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
+  "homepage": "https://lxsmnsyc.github.io/codrops/NavigationIndicators/",
   "eslintConfig": {
     "extends": "react-app", 
     "plugins": [
