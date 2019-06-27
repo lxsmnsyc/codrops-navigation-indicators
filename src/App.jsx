@@ -33,10 +33,7 @@ import Timiro from './components/sections/Timiro';
 import Ubax from './components/sections/Ubax';
 import Shamso from './components/sections/Shamso';
 import Maxamed from './components/sections/Maxamed';
-
-import './css/normalize.css';
 import Hagos from './components/sections/Hagos';
-import SVGSheet from './components/SVGSheet';
 import Zahi from './components/sections/Zahi';
 import Magool from './components/sections/Magool';
 import Xusni from './components/sections/Xusni';
@@ -44,6 +41,14 @@ import Beca from './components/sections/Beca';
 import Etefu from './components/sections/Etefu';
 import Meklit from './components/sections/Meklit';
 import Mariame from './components/sections/Mariame';
+import Desta from './components/sections/Desta';
+import Berta from './components/sections/Berta';
+import Aman from './components/sections/Aman';
+import Kafa from './components/sections/Kafa';
+import Totit from './components/sections/Totit';
+import Ayana from './components/sections/Ayana';
+
+import './css/normalize.css';
 
 const GlobalStyle = createGlobalStyle`
   *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -60,7 +65,6 @@ function App() {
   return (
     <React.Fragment>
       <GlobalStyle />
-      <SVGSheet />
       <Intro />
       <Ubax />
       <Shamso />
@@ -74,6 +78,12 @@ function App() {
       <Meklit />
       <Timiro />
       <Mariame />
+      <Desta />
+      <Berta />
+      <Aman />
+      <Kafa />
+      <Totit />
+      <Ayana />
     </React.Fragment>
   );
 }
