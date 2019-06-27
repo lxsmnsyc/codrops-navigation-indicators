@@ -34,6 +34,7 @@ import Nav from '../nav/Nav';
 import TotitNavItem from '../nav/totit/TotitNavItem';
 import TotitNavItemTitle from '../nav/totit/TotitNavItemTitle';
 import TotitNavItemIcon from '../nav/totit/TotitNavItemIcon';
+import TotitIcon from '../nav/totit/TotitIcon';
 
 import MockupSlider from '../mockup/MockupSlider';
 import MockupImage from '../mockup/MockupImage';
@@ -54,8 +55,8 @@ export default () => {
         {
           constantList.map((item, k) => (
             <TotitNavItem aria-label={item} current={selected === k} onClick={() => select(k)}>
-              <TotitNavItemIcon>
-                <use xlinkHref="#icon-pin" />
+              <TotitNavItemIcon viewBox="0 0 24 24">
+                <TotitIcon />
               </TotitNavItemIcon>
               <TotitNavItemTitle>{item}</TotitNavItemTitle>
             </TotitNavItem>
