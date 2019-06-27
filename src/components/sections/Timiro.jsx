@@ -33,8 +33,9 @@ import Nav from '../nav/Nav';
 
 import TimiroNavItem from '../nav/timiro/TimiroNavItem';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -56,7 +57,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Timiro</h3>
+        <MockupTitle>Timiro</MockupTitle>
       </MockupSlider>
     </TimiroNavSection>
   );
