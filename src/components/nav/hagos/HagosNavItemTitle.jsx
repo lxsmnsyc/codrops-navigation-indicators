@@ -28,7 +28,7 @@
 import styled from 'styled-components';
 import NavItemTitle from '../NavItemTitle';
 
-const ShamsoNavItemTitle = styled(NavItemTitle)`
+const HagosNavItemTitle = styled(NavItemTitle)`
   font-weight: bold;
   position: absolute;
   top: -55%;
@@ -48,4 +48,4 @@ const ShamsoNavItemTitle = styled(NavItemTitle)`
   transition-timing-function: cubic-bezier(0.2,1,0.3,1);
 `;
 
-export default ShamsoNavItemTitle;
+export default HagosNavItemTitle;
