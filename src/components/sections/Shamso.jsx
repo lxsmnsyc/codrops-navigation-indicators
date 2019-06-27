@@ -34,8 +34,9 @@ import Nav from '../nav/Nav';
 import ShamsoNavItem from '../nav/shamso/ShamsoNavItem';
 import ShamsoNavItemTitle from '../nav/shamso/ShamsoNavItemTitle';
 
-import MockupSlider from '../MockupSlider';
-import MockupImage from '../MockupImage';
+import MockupSlider from '../mockup/MockupSlider';
+import MockupImage from '../mockup/MockupImage';
+import MockupTitle from '../mockup/MockupTitle';
 
 import constantList from '../../constantList';
 
@@ -59,7 +60,7 @@ export default () => {
       </Nav>
       <MockupSlider>
         <MockupImage index={selected} />
-        <h3>Shamso</h3>
+        <MockupTitle>Shamso</MockupTitle>
       </MockupSlider>
     </ShamsoNavSection>
   );
