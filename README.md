@@ -1,4 +1,5 @@
 # codrops-navigation-indicators
+
 NavigationIndicators in React
 
 * [Codrops Article](https://tympanus.net/codrops/2016/09/02/inspiration-navigation-indicators/)
@@ -6,6 +7,8 @@ NavigationIndicators in React
 * [Codrops Demo](https://tympanus.net/Development/NavigationIndicators/)
 
 * [Codrops Github Repo](https://github.com/codrops/NavigationIndicators)
+
+If you are to use any NavigationIndicator components, all credit goes to Mary Lou and the Codrops Team with their wonderful work.
 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
