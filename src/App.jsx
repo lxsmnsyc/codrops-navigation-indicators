@@ -37,6 +37,7 @@ import Maxamed from './components/sections/Maxamed';
 import './css/normalize.css';
 import Hagos from './components/sections/Hagos';
 import SVGSheet from './components/SVGSheet';
+import Zahi from './components/sections/Zahi';
 
 const GlobalStyle = createGlobalStyle`
   *, *::after, *::before { -webkit-box-sizing: border-box; box-sizing: border-box; }
@@ -59,6 +60,7 @@ function App() {
       <Shamso />
       <Maxamed />
       <Hagos />
+      <Zahi />
       <Timiro />
     </React.Fragment>
   );
